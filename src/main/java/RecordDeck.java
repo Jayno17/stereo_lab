@@ -34,4 +34,8 @@ public class RecordDeck extends Component implements IPlay{
         }
     }
 
+    public Boolean getIsPlaying(){
+        return isPlaying;
+    }
+
 }
